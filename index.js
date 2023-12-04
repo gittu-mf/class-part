@@ -19,8 +19,7 @@ function displayResults(data) {
  
     if (data.meals === null) {
         resultContainer.innerHTML = '<p>No results found.</p>';
-        return;
-    }
+        return;}
 
     for (let i = 0; i < 5; i++) {
         const meal = data.meals[i];
